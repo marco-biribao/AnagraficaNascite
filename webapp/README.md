@@ -1,58 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Anagrafica Nascite
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Applicazione Laravel per la gestione delle dichiarazioni di nascita (AUSL Umbria 2, Presidio Ospedaliero di Foligno) — sostituisce il vecchio archivio EpiInfo/Access conservato nella cartella `dichiarazioni di nascita/` a livello di repository.
 
-## About Laravel
+Funzionalità principali:
+- Inserimento, ricerca, modifica ed esclusione/ripristino delle dichiarazioni di nascita (modelli A/A1/B/B1/C/C1/D/D1 e varianti madre, secondo il DPR 396/2000)
+- Stampa PDF dei moduli, con template modificabili dagli utenti finali tramite un editor WYSIWYG (senza bisogno di supporto tecnico ad ogni cambio normativo)
+- Autenticazione su Active Directory (LDAP), con un account locale di emergenza se il dominio non è raggiungibile
+- Gestione utenti e ruoli (i ruoli applicativi sono locali, non derivati dai gruppi AD)
+- Registro delle modifiche (audit log) sulle dichiarazioni
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Requisiti
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- PHP 8.3 con le estensioni: `mbstring`, `xml`, `curl`, `mysql` (pdo_mysql), `zip`, `bcmath`, `gd`, `intl`, `ldap`
+- Composer
+- Node.js e npm
+- MySQL o MariaDB
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
+Su Ubuntu/Debian:
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+sudo apt-get update
+sudo apt-get install -y php8.3 php8.3-cli php8.3-common php8.3-mbstring php8.3-xml \
+    php8.3-curl php8.3-mysql php8.3-zip php8.3-bcmath php8.3-gd php8.3-intl php8.3-ldap \
+    composer mysql-server nodejs npm
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## Setup ambiente di sviluppo locale
 
-## Contributing
+1. **Clonare il repository**
+   ```bash
+   git clone https://github.com/marco-biribao/AnagraficaNascite.git
+   cd AnagraficaNascite/webapp
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. **Creare il database locale**
+   ```bash
+   sudo mysql -e "
+   CREATE DATABASE anagrafica_nascite CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   CREATE USER 'anagrafica'@'localhost' IDENTIFIED BY 'scegli-una-password';
+   GRANT ALL PRIVILEGES ON anagrafica_nascite.* TO 'anagrafica'@'localhost';
+   FLUSH PRIVILEGES;"
+   ```
 
-## Code of Conduct
+3. **Configurare l'applicazione**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+   Aprire `.env` e impostare `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD` con i valori del punto precedente.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+   Per lo sviluppo locale i parametri `LDAP_*` possono restare vuoti: in tal caso funziona solo l'account locale creato dal seeder (`ADMIN_USERNAME`/`ADMIN_PASSWORD` in `.env`, di default `admin.locale`).
 
-## Security Vulnerabilities
+4. **Installare le dipendenze e compilare gli asset**
+   ```bash
+   composer install
+   npm install
+   npm run build
+   ```
+   (`npm run build` compila anche gli asset di TinyMCE, l'editor dei template dei report, in `public/vendor/tinymce` — non è versionato in Git, va rigenerato ad ogni checkout pulito.)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5. **Creare le tabelle e i dati di riferimento**
+   ```bash
+   php artisan migrate --seed
+   ```
+   Popola modelli di dichiarazione, dichiaranti, ruoli, template di report di base e l'account amministratore locale.
 
-## License
+6. **Avviare il server di sviluppo**
+   ```bash
+   php artisan serve
+   ```
+   L'app è raggiungibile su `http://127.0.0.1:8000`.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Contribuire modifiche
+
+Ogni persona deve generare il proprio Personal Access Token GitHub (Settings → Developer settings → Personal access tokens, scope `repo`) per poter fare `git push` — i token non sono condivisibili tra account.
+
+## Deploy in produzione
+
+Il deploy sul server interno (build locale con dipendenze di produzione, trasferimento via rsync/tar, configurazione Apache/HTTPS, LDAP verso Active Directory) segue una procedura separata, non descritta qui per non esporre dettagli infrastrutturali nel repository. Chi ha già effettuato un deploy può guidarti nei passaggi.
