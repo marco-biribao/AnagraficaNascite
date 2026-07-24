@@ -1,0 +1,247 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Messaggi senza il nome del campo
+|--------------------------------------------------------------------------
+|
+| A differenza delle traduzioni standard di Laravel, questi messaggi NON
+| includono ":attribute": il nome del campo viene mostrato a parte, in
+| grassetto, dal riquadro degli errori (vedi layouts/app.blade.php), e
+| questi testi proseguono la frase (es. "<b>Cognome madre</b> è
+| obbligatorio."). Vanno quindi scritti come se iniziassero a meta' frase.
+*/
+
+return [
+
+    'accepted' => 'deve essere accettato.',
+    'accepted_if' => 'deve essere accettato quando :other è :value.',
+    'active_url' => 'deve essere un URL valido.',
+    'after' => 'deve essere una data successiva a :date.',
+    'after_or_equal' => 'deve essere una data successiva o uguale a :date.',
+    'alpha' => 'può contenere solo lettere.',
+    'alpha_dash' => 'può contenere solo lettere, numeri, trattini e underscore.',
+    'alpha_num' => 'può contenere solo lettere e numeri.',
+    'any_of' => 'non è valido.',
+    'array' => 'deve essere un elenco.',
+    'ascii' => 'può contenere solo caratteri e simboli a singolo byte.',
+    'base64' => 'deve essere una stringa Base64 valida.',
+    'before' => 'deve essere una data precedente a :date.',
+    'before_or_equal' => 'deve essere una data precedente o uguale a :date.',
+    'between' => [
+        'array' => 'deve avere tra :min e :max elementi.',
+        'file' => 'deve essere tra :min e :max kilobyte.',
+        'numeric' => 'deve essere tra :min e :max.',
+        'string' => 'deve essere tra :min e :max caratteri.',
+    ],
+    'boolean' => 'deve essere vero o falso.',
+    'can' => 'contiene un valore non autorizzato.',
+    'confirmed' => 'non coincide con la conferma.',
+    'contains' => 'non contiene un valore richiesto.',
+    'current_password' => 'non è corretta.',
+    'date' => 'deve essere una data valida.',
+    'date_equals' => 'deve essere una data uguale a :date.',
+    'date_format' => 'deve rispettare il formato :format.',
+    'decimal' => 'deve avere :decimal cifre decimali.',
+    'declined' => 'deve essere rifiutato.',
+    'declined_if' => 'deve essere rifiutato quando :other è :value.',
+    'different' => 'deve essere diverso da :other.',
+    'digits' => 'deve avere :digits cifre.',
+    'digits_between' => 'deve avere tra :min e :max cifre.',
+    'dimensions' => 'ha dimensioni immagine non valide.',
+    'distinct' => 'ha un valore duplicato.',
+    'doesnt_contain' => 'non deve contenere nessuno dei seguenti valori: :values.',
+    'doesnt_end_with' => 'non deve terminare con nessuno dei seguenti valori: :values.',
+    'doesnt_start_with' => 'non deve iniziare con nessuno dei seguenti valori: :values.',
+    'email' => 'deve essere un indirizzo email valido.',
+    'encoding' => 'deve essere codificato in :encoding.',
+    'ends_with' => 'deve terminare con uno dei seguenti valori: :values.',
+    'enum' => 'non è valido.',
+    'exists' => 'non è valido.',
+    'extensions' => 'deve avere una delle seguenti estensioni: :values.',
+    'file' => 'deve essere un file.',
+    'filled' => 'deve avere un valore.',
+    'gt' => [
+        'array' => 'deve avere più di :value elementi.',
+        'file' => 'deve essere maggiore di :value kilobyte.',
+        'numeric' => 'deve essere maggiore di :value.',
+        'string' => 'deve essere maggiore di :value caratteri.',
+    ],
+    'gte' => [
+        'array' => 'deve avere :value elementi o più.',
+        'file' => 'deve essere maggiore o uguale a :value kilobyte.',
+        'numeric' => 'deve essere maggiore o uguale a :value.',
+        'string' => 'deve essere maggiore o uguale a :value caratteri.',
+    ],
+    'hex_color' => 'deve essere un colore esadecimale valido.',
+    'image' => 'deve essere un\'immagine.',
+    'in' => 'non è valido.',
+    'in_array' => 'deve esistere in :other.',
+    'in_array_keys' => 'deve contenere almeno una delle seguenti chiavi: :values.',
+    'integer' => 'deve essere un numero intero.',
+    'ip' => 'deve essere un indirizzo IP valido.',
+    'ipv4' => 'deve essere un indirizzo IPv4 valido.',
+    'ipv6' => 'deve essere un indirizzo IPv6 valido.',
+    'json' => 'deve essere una stringa JSON valida.',
+    'list' => 'deve essere un elenco.',
+    'lowercase' => 'deve essere minuscolo.',
+    'lt' => [
+        'array' => 'deve avere meno di :value elementi.',
+        'file' => 'deve essere minore di :value kilobyte.',
+        'numeric' => 'deve essere minore di :value.',
+        'string' => 'deve essere minore di :value caratteri.',
+    ],
+    'lte' => [
+        'array' => 'non deve avere più di :value elementi.',
+        'file' => 'deve essere minore o uguale a :value kilobyte.',
+        'numeric' => 'deve essere minore o uguale a :value.',
+        'string' => 'deve essere minore o uguale a :value caratteri.',
+    ],
+    'mac_address' => 'deve essere un indirizzo MAC valido.',
+    'max' => [
+        'array' => 'non deve avere più di :max elementi.',
+        'file' => 'non deve essere maggiore di :max kilobyte.',
+        'numeric' => 'non deve essere maggiore di :max.',
+        'string' => 'non deve essere maggiore di :max caratteri.',
+    ],
+    'max_digits' => 'non deve avere più di :max cifre.',
+    'mimes' => 'deve essere un file di tipo: :values.',
+    'mimetypes' => 'deve essere un file di tipo: :values.',
+    'min' => [
+        'array' => 'deve avere almeno :min elementi.',
+        'file' => 'deve essere almeno :min kilobyte.',
+        'numeric' => 'deve essere almeno :min.',
+        'string' => 'deve essere almeno :min caratteri.',
+    ],
+    'min_digits' => 'deve avere almeno :min cifre.',
+    'missing' => 'non deve essere presente.',
+    'missing_if' => 'non deve essere presente quando :other è :value.',
+    'missing_unless' => 'non deve essere presente a meno che :other non sia :value.',
+    'missing_with' => 'non deve essere presente quando :values è presente.',
+    'missing_with_all' => 'non deve essere presente quando :values sono presenti.',
+    'multiple_of' => 'deve essere un multiplo di :value.',
+    'not_in' => 'non è valido.',
+    'not_regex' => 'ha un formato non valido.',
+    'numeric' => 'deve essere un numero.',
+    'password' => [
+        'letters' => 'deve contenere almeno una lettera.',
+        'mixed' => 'deve contenere almeno una lettera maiuscola e una minuscola.',
+        'numbers' => 'deve contenere almeno un numero.',
+        'symbols' => 'deve contenere almeno un simbolo.',
+        'uncompromised' => 'è comparsa in una fuga di dati nota: scegline un\'altra.',
+    ],
+    'present' => 'deve essere presente.',
+    'present_if' => 'deve essere presente quando :other è :value.',
+    'present_unless' => 'deve essere presente a meno che :other non sia :value.',
+    'present_with' => 'deve essere presente quando :values è presente.',
+    'present_with_all' => 'deve essere presente quando :values sono presenti.',
+    'prohibited' => 'non è ammesso.',
+    'prohibited_if' => 'non è ammesso quando :other è :value.',
+    'prohibited_if_accepted' => 'non è ammesso quando :other è accettato.',
+    'prohibited_if_declined' => 'non è ammesso quando :other è rifiutato.',
+    'prohibited_unless' => 'non è ammesso a meno che :other non sia in :values.',
+    'prohibits' => 'impedisce a :other di essere presente.',
+    'regex' => 'ha un formato non valido.',
+    'required' => 'è obbligatorio.',
+    'required_array_keys' => 'deve contenere le voci per: :values.',
+    'required_if' => 'è obbligatorio quando :other è :value.',
+    'required_if_accepted' => 'è obbligatorio quando :other è accettato.',
+    'required_if_declined' => 'è obbligatorio quando :other è rifiutato.',
+    'required_unless' => 'è obbligatorio a meno che :other non sia in :values.',
+    'required_with' => 'è obbligatorio quando :values è presente.',
+    'required_with_all' => 'è obbligatorio quando :values sono presenti.',
+    'required_without' => 'è obbligatorio quando :values non è presente.',
+    'required_without_all' => 'è obbligatorio quando nessuno tra :values è presente.',
+    'same' => 'deve corrispondere a :other.',
+    'size' => [
+        'array' => 'deve contenere :size elementi.',
+        'file' => 'deve essere :size kilobyte.',
+        'numeric' => 'deve essere :size.',
+        'string' => 'deve essere :size caratteri.',
+    ],
+    'starts_with' => 'deve iniziare con uno dei seguenti valori: :values.',
+    'string' => 'deve essere una stringa di testo.',
+    'timezone' => 'deve essere un fuso orario valido.',
+    'unique' => 'è già stato utilizzato.',
+    'uploaded' => 'non è stato caricato correttamente.',
+    'uppercase' => 'deve essere maiuscolo.',
+    'url' => 'deve essere un URL valido.',
+    'ulid' => 'deve essere un ULID valido.',
+    'uuid' => 'deve essere un UUID valido.',
+
+    'custom' => [
+        'password_attuale' => [
+            'current_password' => 'non è corretta.',
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Nomi leggibili dei campi
+    |--------------------------------------------------------------------------
+    |
+    | Usati per il grassetto nel riquadro degli errori (vedi
+    | layouts/app.blade.php) e come sostituto di ":other" nei messaggi sopra.
+    */
+
+    'attributes' => [
+        'username' => 'nome utente',
+        'password' => 'password',
+        'password_attuale' => 'password attuale',
+        'password_nuova' => 'nuova password',
+        'password_nuova_confirmation' => 'conferma nuova password',
+
+        'modello_dichiarazione_id' => 'modello dichiarazione',
+        'dichiarante_id' => 'dichiarante',
+        'data_atto' => 'data atto',
+        'ora_atto' => 'ora atto',
+        'numero_atto' => 'numero atto',
+
+        'nome_nascituro' => 'nome del nascituro',
+        'cognome_nascituro' => 'cognome del nascituro',
+        'sesso_nascituro' => 'sesso del nascituro',
+        'data_nascita' => 'data di nascita',
+        'ora_nascita' => 'ora di nascita',
+        'comune_trascrizione_nascita' => 'comune di trascrizione della nascita',
+        'nome_nascituro_straniero_art24' => 'nome del nascituro straniero (art. 24)',
+        'cognome_nascituro_straniero_art24' => 'cognome del nascituro straniero (art. 24)',
+        'cognome_concordato' => 'cognome concordato',
+
+        'cognome_padre' => 'cognome del padre',
+        'nome_padre' => 'nome del padre',
+        'citta_nascita_padre' => 'città di nascita del padre',
+        'provincia_nascita_padre' => 'provincia di nascita del padre',
+        'data_nascita_padre' => 'data di nascita del padre',
+        'comune_residenza_padre' => 'comune di residenza del padre',
+        'cittadinanza_padre' => 'cittadinanza del padre',
+
+        'cognome_madre' => 'cognome della madre',
+        'nome_madre' => 'nome della madre',
+        'citta_nascita_madre' => 'città di nascita della madre',
+        'provincia_nascita_madre' => 'provincia di nascita della madre',
+        'data_nascita_madre' => 'data di nascita della madre',
+        'comune_residenza_madre' => 'comune di residenza della madre',
+        'cittadinanza_madre' => 'cittadinanza della madre',
+
+        'numero_atto_gemello' => 'numero atto gemello',
+        'codice_atto_gemello' => 'codice atto gemello',
+        'ordine_nascita_gemello' => 'ordine di nascita del gemello',
+
+        'data_spedizione_raccomandata' => 'data spedizione raccomandata',
+        'data_invio_comunicazione_telematica' => 'data invio comunicazione telematica',
+        'numero_protocollo' => 'numero protocollo',
+        'comune_destinatario' => 'comune destinatario',
+        'comune_di_trascrizione' => 'comune di trascrizione',
+        'conferma_avvenuta_trascrizione' => 'conferma avvenuta trascrizione',
+        'numero_atto_comune' => 'numero atto Comune',
+        'anno_trascrizione' => 'anno trascrizione',
+        'note' => 'note',
+
+        'nome' => 'nome',
+        'contenuto' => 'contenuto',
+        'attivo' => 'attivo',
+        'is_active' => 'utenza attiva',
+        'ruoli' => 'ruoli',
+    ],
+
+];

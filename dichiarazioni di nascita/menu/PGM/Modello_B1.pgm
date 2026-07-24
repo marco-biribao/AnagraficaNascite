@@ -1,0 +1,9 @@
+* stampa Modello B1
+
+READ 'C:\Myepi\dichiarazioni di nascita\DICHIARAZIONE_NASCITA.MDB':TEMP
+
+REPORT 'C:\Myepi\dichiarazioni di nascita\PGM\Modello_B1.EPT'
+
+REPORT 'C:\Myepi\dichiarazioni di nascita\PGM\Ricevuta.EPT'
+
+quit

@@ -1,0 +1,8 @@
+* stampa Modello A
+
+READ 'C:\Myepi\dichiarazioni di nascita\DICHIARAZIONE_NASCITA.MDB':TEMP
+
+REPORT 'C:\myepi\dichiarazioni di nascita\pgm\Modello_A.EPT' TO 'C:\myepi\dichiarazioni di nascita\Modello_A.htm'
+execute 'C:\myepi\dichiarazioni di nascita\Modello_A.htm'
+
+

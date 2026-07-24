@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META name="Epi Report Version" content=3.3>
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.6001.23562"></HEAD>
+<BODY id=BODY-1 style="FONT-SIZE: 10pt; ZOOM: 100%">
+<TABLE id=LABELTABLE-1 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 48px; FONT-FAMILY: Times New Roman; WIDTH: 319px; POSITION: absolute; LEFT: 2px; Z-INDEX: 100; TOP: 3px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-1 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 319px" vAlign=top>
+      <P>Servizio Sanitario Nazionale - Regione dell'Umbria</P>
+      <P><FONT size=1 face=Arial>AZIENDA UNITA' SANITARIA LOCALE N. 
+    2</FONT></P></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-2 title=1 
+style="FONT-SIZE: 8pt; HEIGHT: 42px; FONT-FAMILY: Times New Roman; WIDTH: 161px; POSITION: absolute; TEXT-ALIGN: right; LEFT: 674px; Z-INDEX: 101; TOP: 0px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY style="TEXT-ALIGN: right">
+  <TR>
+    <TD id=LABELTABLE-2 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 161px" vAlign=top>
+      <P><FONT face=Arial>MOD_DSP FOL -Mod A1 padre</FONT></P>
+      <P><FONT face=Arial>rev.01 del 14/1/14</FONT></P></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-3 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 23px; FONT-FAMILY: Arial; WIDTH: 578px; POSITION: absolute; LEFT: 9px; Z-INDEX: 102; TOP: 103px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-3 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 578px" 
+      vAlign=top>(<STRONG>NASCITE PLURIME DI FIGLI NATI IN COSTANZA DI 
+      MATRIMONIO)</STRONG></TD></TR></TBODY></TABLE>
+<TABLE id=STBL-1 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 101px; FONT-FAMILY: Times New Roman; WIDTH: 347px; POSITION: absolute; TEXT-ALIGN: center; LEFT: 43px; Z-INDEX: 103; TOP: 134px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY style="TEXT-ALIGN: center">
+  <TR>
+    <TD 
+    style="WORD-WRAP: break-word; BORDER-TOP: 1px solid; HEIGHT: 101px; BORDER-RIGHT: 1px solid; WIDTH: 342px; BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid"><FONT 
+      size=3 face=Arial>&nbsp;</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-4 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 15px; FONT-FAMILY: Times New Roman; WIDTH: 115px; POSITION: absolute; LEFT: 685px; Z-INDEX: 104; TOP: 106px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-4 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 115px" vAlign=top><FONT 
+      face=Arial>Modello A1</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=STBL-2 title=1 
+style="FONT-SIZE: 10pt; BORDER-TOP: 1px solid; HEIGHT: 103px; FONT-FAMILY: Arial; BORDER-RIGHT: 1px solid; WIDTH: 484px; BORDER-BOTTOM: 1px solid; POSITION: absolute; TEXT-ALIGN: center; LEFT: 435px; BORDER-LEFT: 1px solid; Z-INDEX: 105; TOP: 127px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY style="TEXT-ALIGN: center">
+  <TR>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 129px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;<STRONG>Atto numero</STRONG></FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 14px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;-</FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 356px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;</FONT><SPAN id=SPAN-1 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 211px; LEFT: 112px; Z-INDEX: 0; TOP: 9px" 
+      VarType="D"><FONT size=3>{TEMP.fCODICEATTO_1}</FONT></SPAN></TD></TR>
+  <TR>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 129px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;<STRONG>Cognome</STRONG></FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 14px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;-</FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 356px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;</FONT><SPAN id=SPAN-2 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 339px; LEFT: 117px; Z-INDEX: 0; TOP: 33px" 
+      VarType="D"><FONT size=3 face=Arial><FONT 
+      face="Times New Roman">{TEMP.fCOGNOMENASCITURO_2}</FONT></FONT></SPAN></TD></TR>
+  <TR>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 129px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;<STRONG>Nome</STRONG></FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 14px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;-</FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 356px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;</FONT><SPAN id=SPAN-3 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 340px; LEFT: 115px; Z-INDEX: 0; TOP: 48px" 
+      VarType="D"><FONT size=3 face=Arial><FONT 
+      face="Times New Roman">{TEMP.fNOMENASCITURO_1}</FONT></FONT></SPAN></TD></TR>
+  <TR>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 129px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;<STRONG>Sesso</STRONG></FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 14px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;-</FONT></TD>
+    <TD 
+    style="WORD-WRAP: break-word; HEIGHT: 21px; WIDTH: 356px; TEXT-ALIGN: left"><FONT 
+      size=3>&nbsp;</FONT><SPAN id=SPAN-4 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 212px; LEFT: 134px; Z-INDEX: 0; TOP: 71px" 
+      VarType="D"><FONT size=3 face=Arial><FONT 
+      face="Times New Roman">{TEMP.fSESSONASCITURO_1}</FONT></FONT></SPAN></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-5 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 22px; FONT-FAMILY: Arial; WIDTH: 354px; POSITION: absolute; LEFT: 280px; Z-INDEX: 106; TOP: 247px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-5 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 354px" 
+      vAlign=top><STRONG><FONT size=3>ATTO DI DICHIARAZIONE DI 
+      NASCITA</FONT></STRONG></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-6 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 15px; FONT-FAMILY: Arial; WIDTH: 59px; POSITION: absolute; LEFT: 8px; Z-INDEX: 107; TOP: 277px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-6 style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 59px" 
+    vAlign=top><FONT size=3>L'anno</FONT></TD></TR></TBODY></TABLE><SPAN id=SPAN-5 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 217px; POSITION: absolute; LEFT: 73px; Z-INDEX: 108; TOP: 274px" 
+VarType="D"><FONT size=3><U>{TEMP.fOGGIANNO_1}</U></FONT></SPAN><FONT size=3 
+face=Arial> </FONT>
+<TABLE id=LABELTABLE-7 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Arial; WIDTH: 59px; POSITION: absolute; LEFT: 302px; Z-INDEX: 109; TOP: 278px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-7 style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 59px" 
+    vAlign=top><FONT size=3>addi'</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-8 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 17px; FONT-FAMILY: Arial; WIDTH: 103px; POSITION: absolute; LEFT: 584px; Z-INDEX: 110; TOP: 280px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-8 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 103px" vAlign=top><FONT 
+      size=3>del mese di</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-9 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 18px; FONT-FAMILY: Times New Roman; WIDTH: 92px; POSITION: absolute; LEFT: 7px; Z-INDEX: 111; TOP: 307px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-9 style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 92px" 
+    vAlign=top><FONT size=3 face=Arial>alle ore</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-10 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 96px; POSITION: absolute; LEFT: 229px; Z-INDEX: 112; TOP: 305px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-10 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 96px" vAlign=top><FONT 
+      size=3 face=Arial>e minuti </FONT></TD></TR></TBODY></TABLE><SPAN id=SPAN-6 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 204px; POSITION: absolute; LEFT: 377px; Z-INDEX: 113; TOP: 278px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fOGGIGIORNO_1}</U></FONT></FONT></SPAN><FONT 
+size=3 face=Arial> </FONT><SPAN id=SPAN-7 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 145px; POSITION: absolute; LEFT: 698px; Z-INDEX: 114; TOP: 278px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fOGGIMESE_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-8 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 138px; POSITION: absolute; LEFT: 77px; Z-INDEX: 115; TOP: 304px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fOGGIORA_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-9 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 244px; POSITION: absolute; LEFT: 300px; Z-INDEX: 116; TOP: 306px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fOGGIMINUTI_1}</U></FONT></FONT></SPAN><FONT 
+size=3 face=Arial> </FONT>
+<TABLE id=LABELTABLE-11 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 22px; FONT-FAMILY: Times New Roman; WIDTH: 164px; POSITION: absolute; LEFT: 574px; Z-INDEX: 117; TOP: 342px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-11 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 162px" vAlign=top><FONT 
+      size=3 face=Arial>prov.Perugia</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-12 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 229px; POSITION: absolute; LEFT: 531px; Z-INDEX: 118; TOP: 373px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-12 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 229px" vAlign=top><FONT 
+      size=3 face=Arial>addetto alla Direzione 
+Sanitaria,</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-13 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 24px; FONT-FAMILY: Times New Roman; WIDTH: 223px; POSITION: absolute; LEFT: 7px; Z-INDEX: 119; TOP: 372px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-13 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 223px" vAlign=top><FONT 
+      size=3 face=Arial>innanzi al sottoscritto</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-14 title=1 
+style="FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman; POSITION: absolute; LEFT: 8px; Z-INDEX: 120; TOP: 342px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-14 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 385px" vAlign=top><FONT 
+      size=3 face=Arial>sito nel Comune 
+      di&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <FONT 
+face="Times New Roman"><U>FOLIGNO</U></FONT></FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-15 title=1 
+style="FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman; POSITION: absolute; LEFT: 546px; Z-INDEX: 121; TOP: 307px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-15 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 385px" vAlign=top><FONT 
+      size=3 face=Arial>presso l'Ospedale "San Giovanni 
+  Battista"</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-16 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 21px; FONT-FAMILY: Times New Roman; WIDTH: 791px; POSITION: absolute; LEFT: 8px; Z-INDEX: 122; TOP: 399px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-16 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 791px" vAlign=top><FONT 
+      size=3 face=Arial>espressamente autorizzato dal Direttore Sanitario con 
+      delega agli atti (Prot. N. 
+3848&nbsp;14/01/2014)</FONT></TD></TR></TBODY></TABLE><SPAN id=SPAN-10 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 342px; POSITION: absolute; LEFT: 161px; Z-INDEX: 123; TOP: 370px" 
+VarType="D"><FONT size=3><U>{TEMP.fOPERATORE_1}</U></FONT></SPAN><FONT size=3 
+face=Arial> </FONT>
+<TABLE id=LABELTABLE-17 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 24px; FONT-FAMILY: Times New Roman; WIDTH: 189px; POSITION: absolute; LEFT: 7px; Z-INDEX: 124; TOP: 431px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-17 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 189px" vAlign=top><FONT 
+      size=3 face=Arial>e'&nbsp;comparso/a</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-18 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 93px; POSITION: absolute; LEFT: 8px; Z-INDEX: 125; TOP: 468px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-18 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 93px" vAlign=top><FONT 
+      size=3 face=Arial>nato/a in</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-19 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 14px; POSITION: absolute; LEFT: 468px; Z-INDEX: 126; TOP: 471px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-19 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 14px" vAlign=top><FONT 
+      size=3 face=Arial>il</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-20 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 26px; FONT-FAMILY: Times New Roman; WIDTH: 215px; POSITION: absolute; LEFT: 8px; Z-INDEX: 127; TOP: 496px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-20 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 215px" vAlign=top><FONT 
+      size=3 face=Arial>residente nel Comune di </FONT></TD></TR></TBODY></TABLE><SPAN 
+id=SPAN-11 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 293px; POSITION: absolute; LEFT: 164px; Z-INDEX: 128; TOP: 429px" 
+VarType="D"><FONT size=3><U>{TEMP.fCOGNOMEPADRE_1}</U></FONT></SPAN><SPAN 
+id=SPAN-12 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 323px; POSITION: absolute; LEFT: 467px; Z-INDEX: 129; TOP: 431px" 
+VarType="D"><FONT size=3><U>{TEMP.fNOMEPADRE_1}</U></FONT></SPAN><SPAN 
+id=SPAN-13 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 236px; POSITION: absolute; LEFT: 131px; Z-INDEX: 130; TOP: 466px" 
+VarType="D"><FONT size=3><U>{TEMP.fCITTANASCPADRE_1}</U></FONT></SPAN><SPAN 
+id=SPAN-14 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 185px; POSITION: absolute; LEFT: 533px; Z-INDEX: 131; TOP: 468px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fDATANASCPADRE_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-15 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 204px; POSITION: absolute; LEFT: 212px; Z-INDEX: 132; TOP: 495px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fCOMRESIDPADRE_1}</U></FONT></FONT></SPAN><FONT 
+size=3 face=Arial> </FONT>
+<TABLE id=LABELTABLE-21 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 18px; FONT-FAMILY: Times New Roman; WIDTH: 121px; POSITION: absolute; LEFT: 604px; Z-INDEX: 133; TOP: 798px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-21 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 121px" vAlign=top><FONT 
+      size=3 face=Arial>cittadinanza</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-22 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 18px; FONT-FAMILY: Times New Roman; WIDTH: 174px; POSITION: absolute; LEFT: 9px; Z-INDEX: 134; TOP: 558px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-22 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 174px" vAlign=top><FONT 
+      size=3 face=Arial>il giorno</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-23 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 25px; FONT-FAMILY: Times New Roman; WIDTH: 260px; POSITION: absolute; LEFT: 8px; Z-INDEX: 135; TOP: 526px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-23 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 260px" vAlign=top><FONT 
+      size=3 face=Arial>il/la quale, nella sua veste di 
+</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-24 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 164px; POSITION: absolute; LEFT: 565px; Z-INDEX: 136; TOP: 527px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-24 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 164px" vAlign=top><FONT 
+      size=3 face=Arial>dichiara quanto segue</FONT></TD></TR></TBODY></TABLE><SPAN 
+id=SPAN-16 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 269px; POSITION: absolute; LEFT: 712px; Z-INDEX: 137; TOP: 797px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fCITTADINANZAPADRE_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-17 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 251px; POSITION: absolute; LEFT: 226px; Z-INDEX: 138; TOP: 526px" 
+VarType="D"><FONT size=3><U>{TEMP.fDICHIARANTE_1}</U></FONT></SPAN><FONT size=3 
+face=Arial> </FONT><SPAN id=SPAN-18 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 202px; POSITION: absolute; LEFT: 81px; Z-INDEX: 139; TOP: 557px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fGIORNONASCITA_1}</U></FONT></FONT></SPAN><FONT 
+size=3 face=Arial> </FONT>
+<TABLE id=LABELTABLE-25 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 150px; POSITION: absolute; LEFT: 287px; Z-INDEX: 140; TOP: 555px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-25 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 150px" vAlign=top><FONT 
+      size=3 face=Arial>del mese di </FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-26 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 89px; POSITION: absolute; LEFT: 568px; Z-INDEX: 141; TOP: 555px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-26 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 89px" vAlign=top><FONT 
+      size=3 face=Arial>dell'anno</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-27 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 69px; POSITION: absolute; LEFT: 7px; Z-INDEX: 142; TOP: 586px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-27 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 69px" vAlign=top><FONT 
+      size=3 face=Arial>alle ore</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-28 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 75px; POSITION: absolute; LEFT: 252px; Z-INDEX: 143; TOP: 587px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-28 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 75px" vAlign=top><FONT 
+      size=3 face=Arial>e minuti</FONT></TD></TR></TBODY></TABLE><SPAN id=SPAN-19 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 187px; POSITION: absolute; LEFT: 379px; Z-INDEX: 144; TOP: 554px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fMESENASCITA_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-20 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 184px; POSITION: absolute; LEFT: 654px; Z-INDEX: 145; TOP: 553px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fANNONASCITA_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-21 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 178px; POSITION: absolute; LEFT: 73px; Z-INDEX: 146; TOP: 587px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fORANASCITA_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-22 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 175px; POSITION: absolute; LEFT: 329px; Z-INDEX: 147; TOP: 587px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fMINUTINASCITA_1}</U></FONT></FONT></SPAN><FONT 
+size=3 face=Arial> </FONT>
+<TABLE id=LABELTABLE-29 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 18px; FONT-FAMILY: Times New Roman; WIDTH: 383px; POSITION: absolute; LEFT: 533px; Z-INDEX: 148; TOP: 587px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-29 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 383px" vAlign=top><FONT 
+      size=3 face=Arial>in questo centro di nascita&nbsp;e' nato un 
+      bambino</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-30 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 19px; FONT-FAMILY: Times New Roman; WIDTH: 90px; POSITION: absolute; LEFT: 7px; Z-INDEX: 149; TOP: 612px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-30 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 90px" vAlign=top><FONT 
+      size=3 face=Arial>di sess 
+      <TABLE id=LABELTABLE-54 title=1 
+      style="FONT-SIZE: 12pt; HEIGHT: 19px; FONT-FAMILY: Arial; WIDTH: 200px; POSITION: absolute; LEFT: 51px; Z-INDEX: 101; TOP: 27px" 
+      borderColor=#000000 cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR>
+          <TD id=LABELTABLE-54 
+          style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 856px" 
+            vAlign=top>e il cognome di</TD></TR></TBODY></TABLE>o </FONT>
+      <TABLE id=LABELTABLE-32 title=1 
+      style="FONT-SIZE: 10pt; HEIGHT: 19px; FONT-FAMILY: Times New Roman; WIDTH: 809px; POSITION: absolute; LEFT: 34px; Z-INDEX: 100; TOP: 48px" 
+      borderColor=#000000 cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR>
+          <TD id=LABELTABLE-32 
+          style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 2048px" 
+            vAlign=top><FONT size=3 face=Arial>Detto bambino la cui 
+            nascita&nbsp;e' comprovata dall'allegata "attestazione di 
+            nascita"&nbsp;e' nato dalla 
+  Sig.ra</FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-31 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 25px; FONT-FAMILY: Times New Roman; WIDTH: 288px; POSITION: absolute; LEFT: 276px; Z-INDEX: 150; TOP: 612px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-31 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 288px" vAlign=top><FONT 
+      face=Arial><FONT size=3>al quale viene dato il nome di</FONT><SPAN 
+      id=SPAN-44 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 353px; POSITION: absolute; LEFT: 246px; Z-INDEX: 100; TOP: 2px" 
+      VarType="D"><FONT 
+  size=3><U>{TEMP.fNOME_2_1}</U></FONT></SPAN></FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-33 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 18px; FONT-FAMILY: Times New Roman; WIDTH: 125px; POSITION: absolute; LEFT: 6px; Z-INDEX: 151; TOP: 702px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-33 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 125px" vAlign=top><FONT 
+      size=3 face=Arial>nata a </FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-34 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Arial; WIDTH: 61px; POSITION: absolute; LEFT: 340px; Z-INDEX: 152; TOP: 701px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-34 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 61px" vAlign=top><FONT 
+      size=3>prov. di</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-35 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 23px; POSITION: absolute; LEFT: 676px; Z-INDEX: 153; TOP: 701px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-35 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 23px" vAlign=top><FONT 
+      size=3 face=Arial>il</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-36 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 87px; POSITION: absolute; LEFT: 7px; Z-INDEX: 154; TOP: 735px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-36 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 87px" vAlign=top><FONT 
+      size=3 face=Arial>cittadina</FONT><SPAN id=SPAN-30 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 219px; POSITION: absolute; LEFT: 73px; Z-INDEX: 100; TOP: 0px" 
+      VarType="D"><FONT size=3 face=Arial><FONT 
+      face="Times New Roman"><U>{TEMP.fCITTADINANZAMADRE_1}</U></FONT></FONT></SPAN></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-37 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 172px; POSITION: absolute; LEFT: 367px; Z-INDEX: 155; TOP: 735px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-37 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 172px" vAlign=top><FONT 
+      size=3 face=Arial>residente a </FONT><SPAN id=SPAN-31 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 237px; POSITION: absolute; LEFT: 97px; Z-INDEX: 100; TOP: 1px" 
+      VarType="D"><FONT 
+  size=3><U>{TEMP.fCOMRESIDMADRE_2}</U></FONT></SPAN></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-38 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 22px; FONT-FAMILY: Times New Roman; WIDTH: 188px; POSITION: absolute; LEFT: 5px; Z-INDEX: 156; TOP: 766px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-38 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 188px" vAlign=top><FONT 
+      size=3 face=Arial>coniugata con il Sig.</FONT></TD></TR></TBODY></TABLE><SPAN 
+id=SPAN-23 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 236px; POSITION: absolute; LEFT: 207px; Z-INDEX: 157; TOP: 680px" 
+VarType="D"><FONT size=3><U>{TEMP.fCOGNOMEMADRE_1}</U></FONT></SPAN><SPAN 
+id=SPAN-24 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 297px; POSITION: absolute; LEFT: 494px; Z-INDEX: 158; TOP: 680px" 
+VarType="D"><FONT size=3><U>{TEMP.fNOMEMADRE_1}</U></FONT></SPAN><FONT size=3 
+face=Arial> </FONT>
+<TABLE id=LABELTABLE-39 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 62px; POSITION: absolute; LEFT: 600px; Z-INDEX: 160; TOP: 769px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-39 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 62px" vAlign=top><FONT 
+      size=3 face=Arial>nato a </FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-40 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 88px; POSITION: absolute; LEFT: 6px; Z-INDEX: 161; TOP: 797px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-40 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 88px" vAlign=top><FONT 
+      size=3 face=Arial>provincia di</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-41 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 20px; POSITION: absolute; LEFT: 404px; Z-INDEX: 162; TOP: 798px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-41 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 20px" vAlign=top><FONT 
+      size=3 face=Arial>il</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-43 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 23px; FONT-FAMILY: Times New Roman; WIDTH: 810px; POSITION: absolute; LEFT: 36px; Z-INDEX: 164; TOP: 889px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-43 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 810px" vAlign=top><FONT 
+      size=3 face=Arial>Per i casi che ricorre, a norma dell'art.24 della 
+      L.31.05.1995 n.218, il dichiarante afferma che, giusta le leggi 
+    del</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-44 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 21px; FONT-FAMILY: Times New Roman; WIDTH: 332px; POSITION: absolute; LEFT: 8px; Z-INDEX: 165; TOP: 918px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-44 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 332px" vAlign=top><FONT 
+      size=3 face=Arial>proprio Stato, il cognome del/della bambino/a<SPAN 
+      id=SPAN-51 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 284px; POSITION: absolute; LEFT: 329px; Z-INDEX: 100; TOP: 1px" 
+      VarType="D"><FONT 
+      size=3><U>{TEMP.fNOMEBIMBOSTRAN24__1}</U></FONT></SPAN></FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-45 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 18px; POSITION: absolute; LEFT: 626px; Z-INDEX: 166; TOP: 918px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-45 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 18px" vAlign=top><FONT 
+      size=3 face=Arial>e'</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-46 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 22px; FONT-FAMILY: Times New Roman; WIDTH: 821px; POSITION: absolute; LEFT: 36px; Z-INDEX: 167; TOP: 953px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-46 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 821px" vAlign=top><FONT 
+      size=3 face=Arial>Il/la dichiarante afferma che&nbsp;e' intervenuto 
+      accordo con altro</FONT> 
+      <TABLE id=LABELTABLE-47 title=1 
+      style="FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman; POSITION: absolute; LEFT: -28px; Z-INDEX: 100; TOP: 31px" 
+      borderColor=#000000 cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR>
+          <TD id=LABELTABLE-47 
+          style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 385px" 
+            vAlign=top><FONT size=3 face=Arial>ai fini della trascrizione, al 
+            Comune di residenza di </FONT><SPAN id=SPAN-40 
+            style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 272px; POSITION: absolute; LEFT: 393px; Z-INDEX: 100; TOP: -1px" 
+            VarType="D"><FONT 
+            size=3><U>{TEMP.fCOMTRASCRBIMBO_1}</U></FONT></SPAN></TD></TR></TBODY></TABLE><FONT 
+      size=3 face=Arial>genitore affinche' il presente atto venga 
+    rimesso,</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-48 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 26px; FONT-FAMILY: Times New Roman; WIDTH: 839px; POSITION: absolute; LEFT: 34px; Z-INDEX: 168; TOP: 1011px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-48 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 839px" vAlign=top><FONT 
+      size=3 face=Arial>La presente dichiarazione dopo essere stata letta, viene 
+      insieme a me sottoscritta dal dichiarante.</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-49 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 36px; FONT-FAMILY: Times New Roman; WIDTH: 196px; POSITION: absolute; LEFT: 60px; Z-INDEX: 169; TOP: 1078px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-49 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 196px" vAlign=top><FONT 
+      size=3 face=Arial><EM>Il/la Dichiarante</EM></FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-50 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 36px; FONT-FAMILY: Times New Roman; WIDTH: 275px; POSITION: absolute; LEFT: 447px; Z-INDEX: 170; TOP: 1082px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-50 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 275px" vAlign=top><FONT 
+      size=3 face=Arial><EM>Il Direttore Sanitario (o suo 
+    delegato)</EM></FONT></TD></TR></TBODY></TABLE><FONT size=3 face=Arial>
+<HR id=HR-1 
+style="HEIGHT: 1px; WIDTH: 275px; POSITION: absolute; LEFT: 10px; Z-INDEX: 171; TOP: 1074px" 
+align=left color=#808080 noShade>
+
+<HR id=HR-2 
+style="HEIGHT: 1px; WIDTH: 278px; POSITION: absolute; LEFT: 421px; Z-INDEX: 172; TOP: 1077px" 
+align=left color=#808080 noShade>
+</FONT><SPAN id=SPAN-27 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 239px; POSITION: absolute; LEFT: 78px; Z-INDEX: 173; TOP: 701px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fCITTANASCMADRE_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-28 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 274px; POSITION: absolute; LEFT: 397px; Z-INDEX: 174; TOP: 701px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fPROVNASCMADRE_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-29 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 199px; POSITION: absolute; LEFT: 704px; Z-INDEX: 175; TOP: 697px" 
+VarType="D"><FONT size=3><U>{TEMP.fDATANASCMADRE_1}</U></FONT></SPAN><SPAN 
+id=SPAN-35 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 18px; FONT-FAMILY: Times New Roman; WIDTH: 298px; POSITION: absolute; LEFT: 93px; Z-INDEX: 179; TOP: 797px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fPROVNASCPADRE_1}</U></FONT></FONT></SPAN><FONT 
+size=3 face=Arial> </FONT>
+<TABLE id=LABELTABLE-51 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 22px; FONT-FAMILY: Times New Roman; WIDTH: 664px; POSITION: absolute; LEFT: 7px; Z-INDEX: 184; TOP: 825px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-51 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 664px" vAlign=top><FONT 
+      face=Arial><FONT size=3>Il bambino medesimo&nbsp;e' gemello con altro al 
+      quale si riferisce il seguente/precedente atto n.</FONT><SPAN id=SPAN-52 
+      style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 244px; POSITION: absolute; LEFT: 666px; Z-INDEX: 100; TOP: 0px" 
+      VarType="D"><FONT 
+      size=3><U>{TEMP.fCODICEATTOGEMELLO_1}</U></FONT></SPAN></FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-52 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 16px; FONT-FAMILY: Times New Roman; WIDTH: 53px; POSITION: absolute; LEFT: 9px; Z-INDEX: 185; TOP: 860px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-52 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 53px" vAlign=top><FONT 
+      size=3 face=Arial>ed&nbsp;e' il</FONT></TD></TR></TBODY></TABLE>
+<TABLE id=LABELTABLE-53 title=1 
+style="FONT-SIZE: 10pt; HEIGHT: 25px; FONT-FAMILY: Times New Roman; WIDTH: 392px; POSITION: absolute; LEFT: 246px; Z-INDEX: 186; TOP: 858px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-53 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 392px" vAlign=top><FONT 
+      size=3 face=Arial>nato, come attestato dal/la 
+  dichiarante</FONT></TD></TR></TBODY></TABLE><SPAN id=SPAN-41 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 163px; POSITION: absolute; LEFT: 73px; Z-INDEX: 187; TOP: 858px" 
+VarType="D"><FONT size=3 face=Arial><FONT 
+face="Times New Roman"><U>{TEMP.fORDNASCGEMELLO_1}</U></FONT></FONT></SPAN><SPAN 
+id=SPAN-43 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 116px; POSITION: absolute; LEFT: 87px; Z-INDEX: 189; TOP: 612px" 
+VarType="D"><FONT size=3><U>{TEMP.fsesso_2_1}</U></FONT></SPAN> <SPAN id=SPAN-45 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 230px; POSITION: absolute; LEFT: 176px; Z-INDEX: 190; TOP: 765px" 
+VarType="D"><FONT size=3><U>{TEMP.fCOGNOMEPADRE_2_1}</U></FONT></SPAN><SPAN 
+id=SPAN-46 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 167px; POSITION: absolute; LEFT: 393px; Z-INDEX: 191; TOP: 766px" 
+VarType="D"><FONT size=3><U>{TEMP.fNOMEPADRE_2_1}</U></FONT></SPAN><SPAN 
+id=SPAN-47 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 178px; POSITION: absolute; LEFT: 671px; Z-INDEX: 192; TOP: 768px" 
+VarType="D"><FONT size=3><U>{TEMP.fCITTANASCPADRE_2_1}</U></FONT></SPAN><SPAN 
+id=SPAN-48 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 149px; POSITION: absolute; LEFT: 431px; Z-INDEX: 193; TOP: 795px" 
+VarType="D"><FONT size=3><U>{TEMP.fDATANASCPADRE_2_1}</U></FONT></SPAN> <IMG id=IMG-1 style="HEIGHT: 84px; WIDTH: 200px; POSITION: absolute; LEFT: 343px; Z-INDEX: 195; TOP: 0px" src="C:\Myepi\dichiarazioni di nascita\ausl2.jpg" width=377 height=151> <SPAN id=SPAN-50 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 294px; POSITION: absolute; LEFT: 658px; Z-INDEX: 196; TOP: 917px" 
+VarType="D"><FONT size=3><U>{TEMP.fCOGNOMEBIMBOSTRAN24__1}</U></FONT></SPAN> 
+<TABLE id=LABELTABLE-55 title=1 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Arial; POSITION: absolute; LEFT: 586px; Z-INDEX: 197; TOP: 641px" 
+borderColor=#000000 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD id=LABELTABLE-55 
+    style="WORD-WRAP: break-word; HEIGHT: 15px; WIDTH: 385px" vAlign=top>come 
+      da concorde volonta di entrambi</TD></TR></TBODY></TABLE><SPAN id=SPAN-53 
+style="FONT-SIZE: 10pt; OVERFLOW: hidden; HEIGHT: 20px; FONT-FAMILY: Times New Roman; WIDTH: 340px; POSITION: absolute; LEFT: 232px; Z-INDEX: 198; TOP: 638px" 
+VarType="D"><FONT size=3><U>{TEMP.fCOGNOMECONCORD_1}</U></FONT></SPAN> 
+<STYLE>P {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+</STYLE>
+</BODY></HTML>

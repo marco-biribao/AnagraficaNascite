@@ -1,0 +1,256 @@
+MENU Epi Info
+
+*The menu structure is described first
+BEGIN 
+POPUP "MENU"
+  BEGIN
+     *MENUITEM "&INSERIMENTO DATI", VAIALQUESTIONARIO
+     *MENUITEM "AZIONE UNO", AZIONEUNO
+     *MENUITEM SEPARATOR
+     *MENUITEM "AZIONE DUE", AZIONEDUE
+     *MENUITEM SEPARATOR
+     MENUITEM "ESCI", Exit
+  END
+
+  *POPUP "&Programs"
+  *BEGIN
+     *MENUITEM "Ma&ke View (Questionnaire)", MakeView
+     *MENUITEM "&Enter Data", Enter
+     *MENUITEM "&Analyze Data", Analysis
+     *MENUITEM "Create &Maps", EpiMap
+     *MENUITEM "Create &Reports", ReportEngine
+     *MENUITEM "&Nutrition", Nutstat
+     *MENUITEM SEPARATOR
+     *MENUITEM "E&xit", Exit
+  *END
+
+  *POPUP "&Edit"
+  *BEGIN
+     *MENUITEM "&Picture", PictureSetting
+     *MENUITEM "&Edit This Menu", EditThisMenu
+     *MENUITEM SEPARATOR
+     *MENUITEM "&Buttons on or off", ButtonSetting
+     *MENUITEM "&Move/Resize Button <Shift-F2>", MoveButtons
+  *END
+
+
+  BUTTON "QUESTIONARIO A", ENTERA, 9, 59, 17, 8, "QUESTIONARIO MOLTIPLICATORI PRE E POST INTERVENTO"
+  BUTTON "QUESTIONARIO B", ENTERB, 9, 75, 17, 7,  "QUESTIONARIO DESTINATARI PRE E POST INTERVENTO"
+  BUTTON "SCHEDA A", ENTERSA, 41, 75, 17, 7,  "SCHEDA FORMATORI"
+  BUTTON "SCHEDA B", ENTERSB, 41, 60, 17, 7,  "SCHEDA MOLTIPLICATORI"
+
+  BUTTON "E&SCI DAL PROGRAMMA", Exit, 72, 74, 17, 7, "EXIT"
+  
+  *BUTTON "Create &Maps", Epimap, 89, 78,17, 4,  "The mapping program"
+  *BUTTON "Create &Reports", ReportEngine, 89, 82,17, 4,  "Report Engine"
+  *BUTTON "Menu di &Esempio", Esempio, 89, 86,17, 4,  "Accede al Menu di Esempi"
+  *BUTTON "Sito Italiano di Epi Info", Internet, 89, 90,17, 4,  "Quick access if you have an Internet connection"
+  
+  ScreenText " GESTIONE DELLA VALUTAZIONE DEL PROGETTO GUIDA SICURA IN UMBRIA", 50, 40, 18, white, Arial, Bold
+** screenText " testo" , n. di linea orizzontale (100 tutto a dx) , n. linea verticale (100 in basso), n. carattere, colore, font
+END
+
+* The following command blocks contain functions to perform
+* when an item is chosen.
+* Every function MUST have a BEGIN and END.  If they are not
+* paired exactly, the results will be strange.  Commands can be
+* those you would use in a DOS batch file or menu commands like
+* VIEW or HELP.
+
+ StartUp
+ Begin
+ **  Browser "@@WorkDir \Home.htm", 20, 30, 60, 55, ExitButton
+ End
+
+ Shutdown
+ Begin
+ * Your code goes here
+ End
+ 
+ OnBrowserExit
+ Begin
+ * Do the event when closing the browser
+ End
+
+ MakeView
+ Begin
+   Execute MakeView.EXE
+ End
+
+ EnterA
+ Begin
+   Execute Enter.exe "C:\myepi\guida sicura\GUIDA SICURA.MDB":'INSIEMEMOLTANA'
+ End
+
+ EnterB
+ Begin
+   Execute Enter.exe "C:\myepi\guida sicura\GUIDA SICURA.MDB":'INSIEMEdestana'
+ End
+ 
+EnterSA
+ Begin
+   Execute Enter.exe "C:\myepi\guida sicura\GUIDA SICURA.MDB":'INSIEMEschedaform'
+ End
+ EnterSB
+ Begin
+   Execute Enter.exe "C:\myepi\guida sicura\GUIDA SICURA.MDB":'INSIEMEschedamolt'
+ End
+
+ Analysis
+ Begin
+   Execute analysis.exe
+ End
+
+ EpiMap
+ Begin
+   Execute Epimap.exe
+ End
+
+ ReportEngine
+ Begin
+   Execute EpiRepGen.exe
+ End
+ 
+ Nutstat
+ Begin
+   Execute NUTSTAT.exe
+ End
+
+ StatCalc
+ Begin
+   If Exists(.\@@language \Statcalc.exe) then
+      Execute .\@@language \Statcalc.exe
+   Else
+      Execute Statcalc.exe
+   EndIf
+ *  Execute .\@@language \Statcalc.exe;Statcalc.exe
+ End
+
+ DataComp
+ Begin
+   Execute DataComp.exe
+ End
+
+ TableToView
+ Begin
+   Execute Tbl2View.exe
+ End
+
+ EpiLock
+ Begin
+   Execute EpiLock.exe
+ End
+
+ Compact
+ Begin
+   Execute Compact.exe
+ End
+
+ WordPad
+ Begin
+   Execute wordpad.exe
+ End
+
+ Find
+ Begin
+   Execute epifind.exe
+ End
+
+ Exit
+ Begin
+   Exit
+ End
+
+*Illustrates use of a variable value as part of a command.  Note the space after the variable name, which
+*will be removed in processing. This also illustrates the use of a path with the Execute command.  If the first
+*item is not found, Execute looks for the next one.  Items are separated by semicolons.
+
+VisualizeData
+Begin
+  Execute .\@@language \visdata.exe;visdata.exe
+End
+ 
+InstallLanguage
+Begin
+  Execute TSETUP.EXE
+End
+
+ChooseLanguage
+Begin
+  SETLANGUAGE
+End
+
+PictureSetting
+Begin
+  SETPICTURE
+End
+
+EditThisMenu
+Begin
+  Execute WordPad.Exe "@@MenuDir \EpiInfo.MNU"
+End
+
+SystemInfo
+Begin
+  SYSINFO
+End
+
+ChooseDBVersion
+Begin
+  SetDBVersion
+End
+
+ButtonSetting
+Begin
+  SETBUTTONS
+End
+
+MoveButtons
+Begin
+  MoveButtons
+End
+
+WorkingDir
+Begin
+  SETWORKDIR "Please choose a working directory for which you have write privileges."
+End
+
+INIFileDir
+Begin
+  SETINIDIR "Please choose a writable directory for the EpiInfo.INI file."
+End
+
+Contents
+Begin
+  Help EIHelp.chm#/Introduction_to_Epi_Info_for_Windows/First_Topic.htm
+End
+
+Translations
+Begin
+  Help EIHelp.chm#/Translations/Translating_the_Epi_Info_Programs.htm
+End
+
+MenuHowTo
+Begin
+  Help EIHelp.chm#/Epi_Info_Menu/Developing_a_new_Menu_(.mnu).htm, Howto.htm
+End
+
+
+                  
+About
+Begin
+  About
+End
+
+*
+ Report
+ Begin
+   *Execute EpiRepGen.exe 'c:\myepi\iscritti\iscritti1.ept'
+    execute analysis.exe 'c:\myepi\iscritti\report_isc.pgm'  
+End
+
+*report lancio diretto di un report in modalità anteprima di stampa
+
+
+*End of Menu
+*ToolTips are included with the Buttons

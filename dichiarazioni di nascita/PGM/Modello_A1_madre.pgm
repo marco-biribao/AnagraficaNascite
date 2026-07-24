@@ -1,0 +1,9 @@
+* stampa Modello A1_madre
+
+READ 'C:\Myepi\dichiarazioni di nascita\DICHIARAZIONE_NASCITA.MDB':TEMP
+
+REPORT 'C:\Myepi\dichiarazioni di nascita\PGM\Modello_A1_madre.EPT'
+
+REPORT 'C:\Myepi\dichiarazioni di nascita\PGM\Ricevuta.EPT'
+
+quit
